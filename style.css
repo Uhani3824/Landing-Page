@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:rgb(48, 48, 153);
+    line-height: 1.6;
+}
+
+.showCase{
+    background-image: url(seaside.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.showCase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.showCase p{
+    font-size: 20px;
+}
+
+.button{
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(48, 48, 153);
+    border:rgb(48, 48, 153) 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background:rgb(48, 48, 153);
+    color: aliceblue;
+
+}
+
+.section-a{
+    padding: 20px;
+    background: rgb(48, 48, 153);
+    color: aliceblue;
+    text-align: center;
+}
+
+.section-b{
+    padding: 20px;
+    background: aliceblue;
+    color: rgb(48, 48, 153);
+    text-align: center;
+}
+
+.section-c{
+    display: flex;
+}
+
+.section-c div{
+    padding: 20px;
+}
+
+.box1,.box3{
+    background:  rgb(48, 48, 153);
+    color: aliceblue;
+}
+
+.box2{
+    background: aliceblue; 
+}
